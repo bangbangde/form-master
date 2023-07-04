@@ -186,3 +186,29 @@ JSON Schema 是一种声明性语言，允许您对 JSON 文档进行注释和�
 相关链接
 
 - https://json-schema.org/
+
+
+#### type:array
+
+限定数组每一项类型都是 number:
+```json
+{
+  "type": "array",
+  "items": {
+    "type": "number"
+  }
+}
+```
+
+"元组"类型--每一项单独设置类型
+```json
+{
+  "type": "array", 
+  "prefixItems": [
+    { "type": "number" },
+    { "type": "string" },
+    { "enum": ["Street", "Avenue", "Boulevard"] },
+    { "enum": ["NW", "NE", "SW", "SE"] }
+  ]
+}
+```
