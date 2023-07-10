@@ -182,11 +182,6 @@ JSON Schema 是一种声明性语言，允许您对 JSON 文档进行注释和�
 ```
 > ⬆️ 限定属性数量
 
----
-相关链接
-
-- https://json-schema.org/
-
 
 #### type:array
 
@@ -212,3 +207,9 @@ JSON Schema 是一种声明性语言，允许您对 JSON 文档进行注释和�
   ]
 }
 ```
+
+---
+相关链接
+
+- https://json-schema.org/
+
