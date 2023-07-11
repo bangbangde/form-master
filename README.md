@@ -72,3 +72,13 @@ Automatic form generator
 
    【此阶段考虑表单填写内容如何存储】
    TODO
+
+
+----
+
+## 关于是否使用 JsonSchema 的考虑
+利
+- s
+
+弊
+- s
